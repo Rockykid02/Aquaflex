@@ -41,7 +41,7 @@ function showMagolisStory() {
     storyContainer.style.display = 'flex';
     const storyTextElem = document.getElementById('story-text');
     
-    const fullStory = `Just a small visit at Magolis Resort to chill… didn’t know there was an Angel waiting for me there. 👼\n\nI looked into her eyes 👀 — my heart started racing. I pretended like nothing happened for a while, but then I knew… I could never forgive myself if I let her go.\n\nHer name goes by the name…`;
+    const fullStory = `Just a small visit to Magolis Resort to chill… I had no idea the universe was about to change my belief in love at first site.Then I saw you. An Angel, standing there like time had stopped just for us. I looked into your eyes 👀 – and my heart didn't just beat. It *recognized* you. Like it had been waiting for you my whole life and tried to play it cool. Pretended nothing happened. But inside? Every second I didn't speak to you felt like a mistake I'd regret forever.\n\nSo I didn't let you go.. And now, every sunrise, every heartbeat, every breath – they all have only one name. You're not just beautiful. You're my destiny. I love you, 💫 …`;
     
     let i = 0;
     function typeNext() {
