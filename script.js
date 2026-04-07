@@ -113,14 +113,14 @@ function checkAnswer() {
         document.getElementById('questionScreen').style.display = 'none';
         showHurray();
     } else {
-        alert('Not quite right, baby 😘 Try "21 October"');
+        alert('Not quite right, baby 😑 Try "AGAIN"');
     }
 }
 
 function showHurray() {
     const msgBox = document.createElement('div');
     msgBox.className = 'message-box';
-    msgBox.innerHTML = `<h2>🎉 HURRAY! 🎉</h2><p>You remembered my birthday! 💖</p><button class="next-btn" onclick="closeMessageAndStart()">Next 💖</button>`;
+    msgBox.innerHTML = `<h2>🎉 HURRAY! 🎉</h2><p>You got it right Ms! 💖</p><button class="next-btn" onclick="closeMessageAndStart()">Next 💖</button>`;
     document.body.appendChild(msgBox);
 }
 
@@ -192,7 +192,7 @@ function showNameWithHearts() {
 }
 
 function showRomanticMessage() {
-    const magolisDate = new Date(2025, 2, 20); // CHANGE THIS DATE
+    const magolisDate = new Date(2026, 3, 28); // CHANGE THIS DATE
     const today = new Date();
     const diffDays = Math.floor((today - magolisDate) / (1000*3600*24));
     const daysText = diffDays >= 0 ? `${diffDays} days since I first saw you at Magolis` : "Counting down to our Magolis memory";
